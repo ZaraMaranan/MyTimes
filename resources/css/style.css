@@ -4,21 +4,16 @@ header {
   font-weight: bold;
   display: flex;
   width: 100%;
+  position: fixed;
 }
 
-nav {
+nav li {
 justify-content: flex-end;
-}
-
-li {
   display: inline-block;
+  
 }
 
 h4 {
   color: MediumAquamarine;
   padding-left: 10px;
-}
-li {
-  text-decoration: underline;
-  cursor: pointer;
 }

@@ -1,19 +1,94 @@
-header {
+header, nav{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  width: 100%;
+  background-color: white;
+  display: inline-flex;
+
+}
+
+header {
   position: fixed;
+  z-index: 5;
+}
+
+nav {
+  padding-left: 550px;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 60px;
+  border-bottom: 1px solid black;
 }
 
 nav li {
-justify-content: flex-end;
-  display: inline-block;
-  
+ display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
+img .logo {
+  padding: 10px;
 }
 
 h4 {
   color: MediumAquamarine;
-  padding-left: 10px;
+  padding: 0;
+}
+
+img, h4 {
+  display: inline-block;
+  align-items: center;
+}
+p {
+  flex-wrap: wrap;
+
+}
+
+.mother-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-size: cover;
+  height: 300px;
+  width: 629px;
+}
+
+p .mother-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mother-container , .earth-container, .research-container , .cats-container {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.container , .p-container {
+  border: 1px solid black;
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+.columnlarge {
+  width: 630px;
+  border: 1px solid black;
+  display: inline-block;
+
+}
+.columnmedium {
+  width: 300px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.columnsmall {
+  width: 240px;
+  border: 1px solid black;
+  display: inline-block;
+
+}
+.columnlarge , .columnmedium , .columnsmall {
+  margin-top: 115px;
 }

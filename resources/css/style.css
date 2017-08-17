@@ -39,7 +39,7 @@ h4 {
 }
 
 img, h4 {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
 }
 p {
@@ -51,14 +51,23 @@ p {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   background-size: cover;
   height: 300px;
-  width: 629px;
+  width: 630px;
 }
 
-p .mother-container {
+p .mother-container , p .earth-container{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
+p .
+
+ .earth-container {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+   background-size: cover;
+   background-repeat: repeat-x;
+ }
+
+
 
 .mother-container , .earth-container, .research-container , .cats-container {
   font-family: Georgia;
@@ -70,7 +79,7 @@ p .mother-container {
 .container , .p-container {
   border: 1px solid black;
   flex-wrap: wrap;
-  display: inline-flex;
+
 }
 .columnlarge {
   width: 630px;
